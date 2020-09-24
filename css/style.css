@@ -4,27 +4,41 @@ body {
   height: 100%;
 }
 
-body {
-  background-color: cornsilk;
+.color-primary {
+  background-color: greenyellow;
 }
 
-.thick-border {
-  border: solid 7px black;
+.thick-border-1 {
+  border: solid 10px black;
+  /* Turn square into a circle*/
+  border-radius: 30%;
 }
 
-.outer-square {
-  width: 360px;
-  height: 360px;
+
+
+
+.thick-border-2 {
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.box1{
+  width: 600px;
+  height: 600px;
   background-color: sandybrown;
 }
 
-.inner-square {
-  width: 200px;
-  height: 200px;
+.box2{
+  width: 400px;
+  height:400px;
   background: white;
 }
-.inner-inner-square {
-  width: 120px;
-  height: 120px;
-  background-color: teal;
+.box3{
+  width: 200px;
+  height: 200px;
+  }
+.center-v1{
+display: flex;
+justify-content: center;
+align-items: center;
 }
