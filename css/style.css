@@ -31,11 +31,17 @@ body {
 .box2{
   width: 400px;
   height:400px;
-  background: white;
+    background-image: url('/img/giphy.gif');
+    background-size:  cover;
+  background-position:center;
 }
 .box3{
   width: 200px;
   height: 200px;
+  background-image: url('/img/giphy.gif');
+  background-size:  cover;
+  background-position:center;
+
   }
 .center-v1{
 display: flex;
