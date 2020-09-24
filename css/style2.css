@@ -1,0 +1,50 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.color-primary {
+  background-color: greenyellow;
+}
+
+.thick-border-1 {
+  border: solid 5px black;
+
+  /* Turn square into a circle*/
+  border-radius: 30%;
+}
+
+.center-v1{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.main-container {
+    width: 700px;
+    height: 400px;
+    background-color:white;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.meme-container {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+
+#meme-box1 {
+
+}
+
+#meme-box2 {
+    background-image: url(/img/giphy.gif);
+    background-size: cover;
+    background-position: center;
+
+}

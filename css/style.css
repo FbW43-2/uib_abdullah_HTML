@@ -15,64 +15,31 @@ body {
   border-radius: 30%;
 }
 
-
-
-
 .thick-border-2 {
-    border-width: 10px;
-    border-style: solid;
-    border-color: black;
+  border-width: 10px;
+  border-style: solid;
+  border-color: black;
 }
-.box1{
+.box1 {
   width: 600px;
   height: 600px;
   background-color: sandybrown;
 }
 
-.box2{
+.box2 {
   width: 400px;
-  height:400px;
-    background-image: url('/img/giphy.gif');
-    background-size:  cover;
-  background-position:center;
+  height: 400px;
 }
-.box3{
+.box3 {
   width: 200px;
   height: 200px;
-  background-image: url('/img/giphy.gif');
-  background-size:  cover;
-  background-position:center;
-
-  }
-.center-v1{
-display: flex;
-justify-content: center;
-align-items: center;
-}
-.main-container {
-    width: 700px;
-    height: 400px;
-    background-color:white;
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
+  background-image: url("/img/giphy.gif");
+  background-size: cover;
+  background-position: center;
 }
 
-.meme-container {
-    width: 200px;
-    height: 200px;
-    background-color: white;
-}
-
-#meme-box1 {
-
-}
-
-#meme-box2 {
-    background-image: url(/img/giphy.gif);
-    background-size: cover;
-    background-position: center;
-
+.center-v1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
