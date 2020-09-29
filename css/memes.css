@@ -1,0 +1,61 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.color-primary {
+  background-color: greenyellow;
+}
+
+
+  /* Turn square into a circle*/
+  border-radius: 30%;
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  width: 1200px;
+  height: 400px;
+  display: flex;
+  position: center;
+
+}
+
+.meme-container {
+  width: 300px;
+  height: 300px;
+}
+
+#meme-box1 {
+  background-image: url(/img/larry1.gif);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20%;
+}
+
+#meme-box2 {
+  background-image: url(/img/larry2.gif);
+  background-size: cover;
+  background-position: center;
+  border-radius: 30%;
+}
+
+#meme-box3 {
+  background-image: url(/img/larry3.gif);
+  background-position: center;
+  background-size: cover;
+  border-radius: 40%;
+}
+#meme-box4 {
+  background-image: url(/img/larry4.gif);
+  background-position: center;
+  border-radius: 50%;
+}
+}
+
+}
