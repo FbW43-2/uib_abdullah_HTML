@@ -8,10 +8,6 @@ body {
   background-color: greenyellow;
 }
 
-
-  /* Turn square into a circle*/
-  border-radius: 30%;
-
 .center {
   display: flex;
   justify-content: center;
@@ -23,7 +19,6 @@ body {
   height: 400px;
   display: flex;
   position: center;
-
 }
 
 .meme-container {
@@ -51,11 +46,9 @@ body {
   background-size: cover;
   border-radius: 40%;
 }
+
 #meme-box4 {
   background-image: url(/img/larry4.gif);
   background-position: center;
   border-radius: 50%;
-}
-}
-
 }
